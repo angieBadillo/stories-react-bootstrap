@@ -1,0 +1,22 @@
+// Override default variables before the import
+$body-bg: white;
+$primary:#159F9E;
+$secondary:#868e96;
+$success:#28a745;
+$danger:#dc3545;
+$info:#17a2b8;
+$warning:#ffc107;
+$light:#f8f9fa;
+$dark:#343a40;
+
+
+// Add SASS theme customizations here..
+html {font-size: .8rem;}
+
+// Import Bootstrap and its default variables
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import '~bootstrap/scss/bootstrap.scss';
+html, body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
